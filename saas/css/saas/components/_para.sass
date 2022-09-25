@@ -1,0 +1,11 @@
+.para
+    background-color: darken($orange,20%)
+    font-size: size()
+    width: pixToVw(600)
+    +flex-center
+    +circle(200px)
+    +max-break-point($tablet)
+        background-color: blue
+    +max-break-point($phone)
+        background-color: green
+    
